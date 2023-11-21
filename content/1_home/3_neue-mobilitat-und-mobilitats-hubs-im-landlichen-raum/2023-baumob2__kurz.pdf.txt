@@ -1,0 +1,17 @@
+Title: Neue Mobilität und Mobilitäts-Hubs im ländlichen Raum
+
+----
+
+Version: Kurzfassung
+
+----
+
+Sort: 1
+
+----
+
+Uuid: cbMaETUHGR9oozum
+
+----
+
+Template: myfile

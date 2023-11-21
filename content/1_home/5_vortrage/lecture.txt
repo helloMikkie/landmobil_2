@@ -1,0 +1,108 @@
+Title: Vorträge
+
+----
+
+Lecture:
+
+- 
+  author: Lola Meyer
+  title: 'Klimagerechte Stadt- und Quartiersentwicklung durch Umnutzung von Verkehrsinfrastrukturen in ländlichen Räumen am Beispiel der nordhessischen Gemeinde Trendelburg'
+  event: ""
+  date: 2.11.2023
+  link: ""
+  location: >
+    Tagung „Stadterneuerung im
+    Klimawandel“, Universität Kassel
+- 
+  author: Philipp Oswalt
+  title: Wem gehört die Straße?
+  event: ""
+  date: 18.08.2023
+  link: ""
+  location: Kammergesellschaft Berlin
+- 
+  author: Lola Meyer
+  title: 'Zielbild ländliche Mobilität Nordhessen, Fachgruppe Stadt- und Dorfentwicklung'
+  event: ""
+  date: 09.03.2023
+  link: ""
+  location: >
+    Zukunftsnetz Mobilität NRW/KS
+    Westfalen-Lippe
+- 
+  author: Lola Meyer
+  title: >
+    Auf dem Lande ohne eigenes Auto − geht
+    das?
+  event: ""
+  date: 15.12.2022
+  link: ""
+  location: ' Deutsches Architekturmuseum in Frankfurt am Main, Reihe: Mobilitätswandel schafft Freiraum! − Bietet die Verkehrswende Raum für neues Grün?'
+- 
+  author: Philipp Oswalt
+  title: Tag der Mobilität Marburg
+  event: >
+    AG Mobilität und Versorgung im Rahmen
+    des Integrierten Kommunalen
+    Entwicklungskonzepts (IKEK)
+  date: 17.09.2022
+  link: ""
+- 
+  author: Thimo Gerth, Myriam Pregizer
+  title: Forschungsprojekt BauMobil
+  event: >
+    Tag der Forschung, Universität Kassel
+    FB 06
+  date: '30.06.2022 '
+  link: ""
+- 
+  author: Lola Meyer
+  title: >
+    Zur Zukunft der ländlichen Mobilität,
+    Mobilitäts-Hubs für ländliche Räume
+  event: 5. VCD-Netzwerktreffen Hameln
+  date: 02.05.2022
+  link: ""
+- 
+  author: Stefan Rettich
+  title: >
+    Probleme am Horizont – Die Bodenfrage
+    und neue Mobilität im ländlichen Raum
+  event: ' Reihe „Stadt & Land – Transferforum“ der Forschungsinitiative urbanes.land, Hochschule Biberach/Wüstenrot Stiftung'
+  date: 16.03.2022
+  link: ""
+- 
+  author: Philipp Oswalt
+  title: Mobilitätsumsteigepunkt
+  event: 'Umweltbundesamt, UBA Forum mobil & nachhaltig, Thema „Umlandstadt umweltschonend“'
+  date: 23.11.2021
+  link: ""
+- 
+  author: Stefan Rettich
+  title: U-Turn Berlin-Brandenburg
+  event: 'Input-Vortrag im Rahmen des Rathaus-Dialogs zum Konzeptaufschlag IBA Berlin-Brandenburg, Veranstalter: der Regierende Bürgermeister von Berlin'
+  date: 23.08.2021
+  link: ""
+- 
+  author: Lola Meyer
+  title: Mobilität in ländlichen Räumen
+  event: >
+    Webinar, Vortrag und Diskussionen mit
+    Markus Tressel, MdB Fraktion Bündnis
+    90/DIE GRÜNEN, Lola Meyer, Prof.
+    Philipp Oswalt und Prof. Stefan Rettich,
+    (Universität Kassel), Markus Friebe und
+    Robert Häntsch, Interlink
+  date: 10.12.2020
+  link: >
+    https://de-de.facebook.com/markustresselmdb/videos/290850525682157/
+- 
+  author: Lola Meyer
+  title: 'Neue Mobilität und  die Verkehrswende im ländlichen Raum'
+  event: Public Climate School
+  date: 28.11.2020
+  link: https://vimeo.com/483947583
+
+----
+
+Uuid: aLAK17w3hM0nqu2Y

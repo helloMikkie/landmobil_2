@@ -1,0 +1,26 @@
+title: Lectures
+icon: text
+
+sections:
+  lectures:
+    type: fields
+    fields:
+      lecture:
+        type: structure
+        fields:
+          author:
+            label: Vortragender
+            type: text
+          title:
+            label: Vortragstitel
+            type: text
+          event:
+            label: Veranstaltung
+            type: text
+          date:
+            label: Datum
+            type: text
+          link:
+            label: Link
+            type: url
+     

@@ -1,0 +1,58 @@
+Title: Reallabor „Mobil auf dem Land ohne eigenes Auto“
+
+----
+
+Subtitle: Leitbild für eine Mobilitätswende im ländlichen Raum
+
+----
+
+Description:
+
+Im Rahmen des Projektes wurde für die Mobilitätswende in Nordhessen beispielhaft
+an der Gemeinde Trendelburg ein Zielbild für die Mobilitätswende erstellt. Dazu wurde ein in der vorherigen Forschung formuliertes nachhaltiges Mobilitätskonzept für die Zukunft herangezogen und mit einer aus 165 Bewerber:innen ausgewählten Gruppe von 15 Bürger:innen, der Fokusgruppe, sowie regionalen und lokalen Mobilitätsakteuren, diskutiert und weiterentwickelt. Jede der Beteiligten wurden in leitfadengestützten Interviews ausführlich befragt, Alltagsverhalten kartiert und daraus Mobilitätstypen herausgearbeitet. Im Rahmen eine Werksattverfahrens entwickelten die TeilnehmerInnen gemeinsam eine Vielzahl von Idee und ein gemeinsames Zielbild. Das multimodale Konzept integriert „alle“ Verkehrsmittel und denkt ihr Zusammenspiel räumlich. Es skizziert ein Leben auf dem Land im Jahr 2035, wo alle Menschen auch ohne eigenes Auto mobil sein können.
+
+----
+
+Team:
+
+- 
+  institution: 'Universität Kassel '
+  section: >
+    Fachgebiet Architekturtheorie und
+    Entwerfen
+  persons: >
+    Prof. Dr. Philipp Oswalt, Lola Meyer,
+    Maik Kiesler, Michael Jell
+- 
+  institution: 'Forward Planungs- und Forschung Hmbh'
+  section: in Kooperation mit Urban Catalyst GmbH
+  persons: >
+    Anna Bernegg, Jörn Gertenbach, Katerina
+    Mareckova, Claudia Burbaum
+
+----
+
+Partner:
+
+- 
+  name: Nordhessischer VerkehrsVerbund (NVV)
+- 
+  name: Stadt Trendelburg, Hessen
+- 
+  name: Landkreis Kassel
+- 
+  name: Zweckverband Raum Kassel
+- 
+  name: Hessen Mobil
+- 
+  name: Regionalmanagement Nordhessen GmbH
+- 
+  name: Regio.Mobil Deutschland GmbH
+
+----
+
+Support: Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV), Zukunftswettbewerb nachhaltige Mobilität #mobilwandel2035
+
+----
+
+Uuid: 7yBcJtrI5xssPAd3

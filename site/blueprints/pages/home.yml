@@ -1,0 +1,21 @@
+title: One Pager
+icon: 🧰
+
+sections:
+  parts:
+    headline: Parts
+    type: pages
+    status: all
+    image: false
+    info: "{{ page.intendedTemplate }}"
+    templates:
+      - pager-headline
+      - text
+      - project
+      - lecture
+      - publication
+      - media
+      - pager-hero
+
+
+      

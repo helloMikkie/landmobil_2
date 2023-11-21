@@ -1,0 +1,120 @@
+Title: Medienbeiträge
+
+----
+
+Media:
+
+- 
+  title: DASDING
+  cast: SWR
+  persons: >
+    Philipp Oswalt im Gespräch mit Annette
+    Volmer
+  date: ' 7.10.2023'
+  link: ""
+- 
+  title: 'Katja Rudolph: Haltestellen mit Mehrwert: Kasseler Forscher zeigen Wege zur Mobilitätswende im ländlichen Raum auf,'
+  cast: HNA
+  persons: ""
+  date: 19.09.2023
+  link: ""
+- 
+  title: 'Studie empfiehlt: Bushaltestellen auf dem Land zu Treffpunkten machen mit WLAN, Ladestationen, Tauschboxen etc. – damit die Verkehrswende klappt'
+  cast: Deutschlandfunk Nachrichten
+  persons: ""
+  date: 13.09.2023
+  link: ""
+- 
+  title: 'Haltestellen: Wie sie auf dem Lande Lücken füllen könnten'
+  cast: >
+    Deutschlandfunk Kultur, Studio 9, Kultur
+    und Politik am Abend
+  persons: >
+    Philipp Oswalt im Gespräch mit Axel
+    Rahmlow
+  date: 13.09.2023
+  link: ""
+- 
+  title: Die Zukunft der Dorfhaltestelle
+  cast: 'WDR 5, Neugier genügt '
+  persons: >
+    Philipp Oswalt im Gespräch mit Achim
+    Schmitz-Forte
+  date: 01.08.2023
+  link: ""
+- 
+  title: 1:0 für Walchensee
+  cast: Süddeutsche Zeitung, Nr. 164, S. 9
+  persons: ' Gerhard Matzig'
+  date: 19.07.2023
+  link: ""
+- 
+  title: >
+    „Es ist absurd, zu meinen, das Auto
+    wäre alternativlos“
+  cast: Magazin Trailer, Ausgabe Mai 2023
+  persons: >
+    Philipp Oswalt über die Verkehrswende m
+    ländlichen Raum
+  date: 25.04.2023
+  link: ""
+- 
+  title: Die Stadt von morgen
+  cast: Magazin Senkrechtstarter, S. 11−16
+  persons: Lola Meyer im Interview
+  date: "02.2023"
+  link: ""
+- 
+  title: 'Universität Kassel: Wie kann man den ÖPNV effektiver machen?'
+  cast: Brisant, ARD
+  persons: Lola Meyer im Interview
+  date: 18.05.2022
+  link: ""
+- 
+  title: >
+    ÖPNV auf dem Land muss verbessert
+    werden
+  cast: Morgenecho, WDR 5
+  persons: Philipp Oswalt im Interview
+  date: 21.09.2021
+  link: ""
+- 
+  title: >
+    Zukunft des Nahverkehrs – autonom
+    mobil
+  cast: EMB Magazin, Ausgabe 07/2021
+  persons: >
+    Interview mit Lola Meyer und Philipp
+    Oswalt
+  date: "07.2021"
+  link: ""
+- 
+  title: >
+    Wir wollen mehr Mobilität bei weniger
+    Verkehr
+  cast: Inter/View Reihe Volkswagen AG
+  persons: >
+    Lola Meyer und Stefan Rettich im
+    Gespräch
+  date: 04.03.2021
+  link: ""
+- 
+  title: 'Rettet die App den Nahverkehr? '
+  cast: Volksstimme
+  persons: MikeFieske
+  date: 03.11.2020
+  link: ""
+- 
+  title: >
+    Auf dem Land ist der Linienbus ein
+    Auslaufmodell“
+  cast: Spiegel Online
+  persons: >
+     Philipp Oswalt im Gespräch mit Manuel
+    Berkel
+  date: 17.10.2020
+  link: ""
+
+----
+
+Uuid: JSS9OQhYJSnkXsxJ

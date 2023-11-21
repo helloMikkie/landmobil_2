@@ -1,0 +1,20 @@
+Title: Hero
+
+----
+
+Headline: Neue Mobilität im ländlichen Raum
+
+----
+
+Hero-image: - file://q90zTbGyHG4A3kvQ
+
+----
+
+Images:
+
+- >
+  bildschirmfoto-2019-08-22-um-22.39.22.jpg
+
+----
+
+Uuid: SPSEi5uT6QpnyTqK

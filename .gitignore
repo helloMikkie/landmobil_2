@@ -1,0 +1,45 @@
+# System files
+# ------------
+
+Icon
+.DS_Store
+
+# Temporary files
+# ---------------
+
+/media/*
+!/media/index.html
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Cache Files
+# ---------------
+
+/storage/cache/*
+!/site/cache/index.html
+
+# Accounts
+# ---------------
+
+/storage/accounts/*
+!/site/accounts/index.html
+
+# Sessions
+# ---------------
+
+/storage/sessions/*
+!/site/sessions/index.html
+
+# Logs
+# ---------------
+
+/storage/logs/*
+!/storage/logs/index.html
+# License
+# ---------------
+/site/config/.license
+
+/kirby
+/vendor

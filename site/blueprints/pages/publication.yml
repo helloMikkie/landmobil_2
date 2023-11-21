@@ -1,0 +1,33 @@
+title: Publications
+icon: text
+
+sections:
+  publications:
+    type: fields
+    fields:
+      publication:
+        type: structure
+        fields:
+          author:
+            label: Autoren
+            type: text
+          title:
+            label: Publikationstitel
+            type: text
+          publisher:
+            label: Verlag
+            type: text
+          date:
+            label: Ort und Datum
+            type: text
+          link:
+            label: Link
+            type: url
+          download:
+            label: Download
+            type: files
+  downloads:
+    label: Downloads
+    type: files
+
+     

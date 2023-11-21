@@ -1,0 +1,69 @@
+Title: Zukunft der Mobilität im ländlichen Raum
+
+----
+
+Subtitle: 
+
+----
+
+Description:
+
+Die Mobilität im ländlichen Raum unterliegt gegenwärtig einem doppelten Transformationsprozess: Zum einen verändert die Digitalisierung die Mobilitätsmöglichkeiten grundlegend, zum anderen erfordern die Klimaschutzziele eine schnelle Verkehrswende. Hinzu kommen im ländlichen Raum der Struktur- und demografische Wandel mit rückläufiger Daseinsvorsorge, Flächeninanspruchnahme durch Siedlungs- und Verkehrsstrukturen und nicht zuletzt die sogenannte „letzten Meile“ im Lieferverkehr.
+
+Das Forschungsvorhaben befasst sich mit diesen Positionen und untersucht die Digitalisierung des Verkehrs vor dem Hintergrund räumlicher, baulicher und siedlungsstruktureller Veränderungen mit dem Ziel, einen Beitrag zur Verkehrswende im Auto-dominierten ländlichen Raum zu leisten. Dabei zeigen die vorliegenden Forschungsergebnisse, dass eine erfolgreiche ländliche Verkehrswende weniger motorisiertem Individualverkehr erfordert, weniger CO2 emittiert, weniger Flächen in Anspruch nimmt und erheblich freiwerdende Raumpotentiale eröffnet. Unter der Prämisse autonom fahrender Vehikel (Busse, Züge oder Pkws) wurden die beiden Zukunftsbilder „Auto-Land“ vs. „Gemeinschafts-Land“ für das Jahr 2050 entwickelt, die sich deutlich im Modal Split unterscheiden und unterschiedliche räumliche Auswirkungen auf Siedlungsstrukturen, Flächenverbräuche und öffentliche Räume haben.
+
+----
+
+Team:
+
+- 
+  institution: Universität Kassel
+  section: >
+    Fachgebiet Architekturtheorie und
+    Entwerfen
+  persons: Prof. Philipp Oswalt, Lola Meyer
+  member: Architektur
+- 
+  institution: ""
+  section: Fachgebiet Städtebau
+  persons: Prof. Stefan Rettich, Franziska Böker
+  member: Städtebau
+- 
+  institution: ""
+  section: 'Stadt- und Regionalplanung'
+  persons: Prof. Dr. Frank Roost, Elisabeth Jeckel
+
+----
+
+Partner:
+
+- 
+  name: Nordhessischer VerkehrsVerbund (NVV)
+- 
+  name: >
+    Fachzentrum für Mobilität im
+    Ländlichen Raum
+- 
+  name: Zweckverband Raum Kassel (ZRK)
+- 
+  name: Stadt Trendelburg
+
+----
+
+Support: Bundesinstitut für Bau-, Stadt- und Raumforschung (BBSR) im Rahmen des Innovationsprogramms Zukunft Bau und  im Auftrag des Bundesministeriums des Innern, für Bau und Heimat (BMI)
+
+----
+
+No-sidebar: Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla.
+
+----
+
+Sidebar: Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ull(image: user_3.png)amcorper nulla non metus auctor fringilla.
+
+----
+
+Images: - user_3.png
+
+----
+
+Uuid: PKunsjYY72qPZVaQ

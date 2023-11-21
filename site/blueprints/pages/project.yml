@@ -1,0 +1,49 @@
+title: Project
+icon: text
+
+columns:
+  infocolumn:
+    width: 1/2
+    sections:
+      info:
+        type: fields
+        fields:
+          subtitle:
+            type: text
+          description:
+            type: textarea
+            size: large
+      reports:
+        type: files
+        template: myfile
+  metacolumn:
+    width: 1/2
+    sections:
+      meta:
+        type: fields
+        fields:
+          team:
+            label: Forschungsteam
+            type: structure
+            fields:
+              institution:
+                label: Institution
+                type: text
+              section:
+                label: Abteilung
+                type: text
+              persons:
+                label: Personen
+                type: text
+          partner:
+            label: Projektpartner
+            type: structure
+            fields:
+              name:
+                label: Bezeichnung
+                type: text
+          support:
+            label: Fördergeber
+            type: textarea
+
+

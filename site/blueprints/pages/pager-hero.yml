@@ -1,0 +1,17 @@
+title: Hero Section
+icon: 🏟
+
+
+
+fields:
+  headline:
+    type: text
+
+  hero_image:
+    type: files
+    template: pager-reel
+    layout: cards
+    size: tiny
+    info: "{{ file.caption }}"
+    min: 1
+    max: 5

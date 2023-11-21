@@ -1,0 +1,61 @@
+Title: Neue Mobilität und Mobilitäts-Hubs im ländlichen Raum
+
+----
+
+Subtitle: 
+
+----
+
+Description: Die vorliegende Studie befasst sich stattdessen mit den Potenzialen der öffentlichen Verkehre (ÖV) im ländlichen Raum und legt den Fokus auf die räumliche Konzeption und die bauliche Infrastruktur der öffentlichen Verkehre. Auf der Grundlage von Bewegungsdaten in einem Teilbereich Nordhessens konnten Kriterien für ein gestuftes, skalierbares und übertragbares Hubsystem entwickelt werden, das multi-modale und digital abrufbare Angebote beinhaltet – und das auch in anderen räumlichen Kontexten ländlich geprägter Regionen anwendbar ist. Anhand von Designstudien wird nachgewiesen, dass die Mobilitäts- und Sekundärfunktionen baulich integriert werden können, und dass mit modularen Baukastensystemen eine klare Gestaltungsprache mit einem hohen Maß an Wiedererkennbarkeit, Variabilität und Skalierbarkeit verbunden werden kann. Insgesamt zeigt sich, dass mit einem flächendeckenden Umbau der Haltestellensysteme und der sie umgebenden Straßenräume enorme qualitative Verbesserungen des öffentlichen Raums erzielt, aber auch räumliche Ressourcen für die Verkehrswende im ländlichen Raum gewonnen werden könnten. Damit könnte insgesamt das Leben in den Dörfern und Gemeinden im ländlichen Raum verbessert und die Stabilität der ländlichen Regionen erhöht werden.
+
+----
+
+Team:
+
+- 
+  institution: Universität Kassel
+  section: >
+    Fachgebiet Architekturtheorie und
+    Entwerfen
+  persons: >
+    Prof. Philipp Oswalt, Lola Meyer,
+    Georgios Varelis, u.a.
+- 
+  institution: ""
+  section: Fachgebiet Städtebau
+  persons: Prof. Stefan Rettich, Thimo Gerth u.a.
+
+----
+
+Partner:
+
+- 
+  name: Nordhessischer VerkehrsVerbund (NVV)
+- 
+  name: >
+    Regionalmanagement Nordhessen
+    GmbH/MoWiN.net e.V.
+- 
+  name: Stadt Trendelburg
+- 
+  name: >
+    Bundesverband Paket und Expresslogistik
+    (BIEK)
+- 
+  name: DHL Paket GmbH
+- 
+  name: Hessen Mobil
+- 
+  name: Landkreis Kassel
+- 
+  name: Regionaler Verkehrsdienst Schwalm-Eder
+- 
+  name: Zweckverband Raum Kassel (ZRK)
+
+----
+
+Support: Bundesinstitut für Bau-, Stadt- und Raumforschung (BBSR) im Rahmen des Innovationsprogramms Zukunft Bau und  im Auftrag des Bundesministeriums des Innern, für Bau und Heimat (BMI)
+
+----
+
+Uuid: 6RjNk7lWEEd9JJIH

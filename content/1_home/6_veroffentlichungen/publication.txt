@@ -1,0 +1,89 @@
+Title: Veröffentlichungen
+
+----
+
+Publication:
+
+- 
+  author: Philipp Oswalt, Stefan Rettich (Hg.)
+  title: >
+    Zentralitäten 4.0 – Raumpolitiken und
+    neue Mobilität auf dem Lande
+  publisher: jovis
+  date: Berlin 2023
+  link: >
+    https://www.jovis.de/en/book/9783986120511
+  download:
+    - file://DKyZpxF2zsMuhJ3W
+- 
+  author: Philipp Oswalt und Lola Meyer
+  title: >
+    Die Mobilitätswende sind wir − Bauen
+    für die neue Mobilität im ländlichen
+    Raum
+  publisher: BDLA Verbandszeitschrift
+  date: 2023, S. 16−17
+  link: ""
+  download: [ ]
+- 
+  author: Philipp Oswalt, Lola Meyer
+  title: >
+    Neue Mobilität im ländlichen Raum –
+    Zukunftsszenarien
+  publisher: Deutsche Bauzeitung DBZ
+  date: Ausgabe 02-2023, S. 28−31
+  link: ""
+  download: [ ]
+- 
+  author: Prof. Dr. Philipp Oswalt
+  title: >
+    Leitbild Neue Mobilität.
+    Mobilitätswende im ländlichen Raum
+  publisher: und forward Planung und Forschung
+  date: Kassel 2022
+  link: ""
+  download: [ ]
+- 
+  author: Weert Canzler
+  title: >
+    Wohin geht die Reise? Mobilitätstrends
+    inmitten der Klimakrise
+  publisher: Bauwelt
+  date: Ausgabe 20/2022, S. 30−35
+  link: ""
+  download: [ ]
+- 
+  author: >
+    Lola Meyer, Philipp Oswalt, Stefan
+    Rettich
+  title: Die Zukunft der ländlichen Mobilität
+  publisher: Garten und Landschaft
+  date: 'Ausgabe 4/2021,  S. 40−43'
+  link: ""
+  download: [ ]
+- 
+  author: Lola Meyer und Philipp Oswalt
+  title: >
+    Mobilitäts-Hubs für Mobilität im
+    Ländlichen Raum
+  publisher: Dokumente ATH 23
+  date: Kassel
+  link: ""
+  download: [ ]
+- 
+  author: >
+    Stefan Rettich (Co-Autor),
+    Bundesministerium des Innern − BMI
+    (Hg.)
+  title: >
+    Memorandum Urbane Resilienz. Wege zur
+    robusten, adaptiven und zukunftsfähigen
+    Stadt
+  publisher: ""
+  date: Berlin 2021
+  link: ""
+  download: [ ]
+
+----
+
+Uuid: 43Cp74cZz91HWaGl

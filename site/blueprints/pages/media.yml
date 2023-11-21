@@ -1,0 +1,26 @@
+title: Media
+icon: text
+
+sections:
+  medias:
+    type: fields
+    fields:
+      media:
+        type: structure
+        fields:
+          title:
+            label: Titel
+            type: text
+          cast:
+            label: Medium
+            type: text
+          persons:
+            label: Beteiligte
+            type: text
+          date:
+            label: Ort und Datum
+            type: text
+          link:
+            label: Link
+            type: url
+

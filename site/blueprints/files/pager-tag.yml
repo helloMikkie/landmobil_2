@@ -1,0 +1,10 @@
+title: Card
+icon: image
+
+fields:
+  heading:
+    type: text
+    width: 1/2
+  text:
+    type: textarea
+    width: 1/2
