@@ -1,0 +1,18 @@
+@font-face{
+    font-family:'Space-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/SpaceGrotesk-Regular.woff2), url(fonts/SpaceGrotesk-Regular.woff);
+}
+@font-face{
+    font-family:'Space-Bold';
+    font-style: normal;
+    font-weight: 600;
+    src: url(fonts/SpaceGrotesk-Bold.woff2), url(fonts/SpaceGrotesk-Bold.woff);
+}
+body{
+    font-family:Space-Regular ;
+    height: 100%; 
+    
+    
+}

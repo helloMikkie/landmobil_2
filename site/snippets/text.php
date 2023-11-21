@@ -1,1 +1,5 @@
-<p><?= $part->text()->kt() ?></p>
+<section class="container impressum">
+    <div>
+        <?= $part->text()->kt() ?>
+    </div>
+</section>
