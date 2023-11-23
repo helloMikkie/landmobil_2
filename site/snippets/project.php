@@ -1,4 +1,4 @@
-<section class="container">
+<section class="project">
 
 
     <h2><?=$part->title() ?></h2>
@@ -8,46 +8,55 @@
 
 
     <p><?=$part->description() ?></p>
+    <!-- Downloads -->
 
-    <article>
-        <?php $files = $part->files()->filterBy('extension', 'pdf');
+    <?php $files = $part->files()->filterBy('extension', 'pdf');
 	foreach($files as $item ): ?>
-        <a href="<?= $item->url() ?>" target="_blank">
-            <p><?= $item->version() ?></p>
-            <h4><?= $item->title() ?> </h4><span>[<?= $item->extension() ?>, <?= $item->niceSize() ?>]</span>
-        </a>
+    <a href="<?= $item->url() ?>" target="_blank" class="project-link">
+
+        <?= svg('assets/images/icon-download.svg') ?>
+        <div class="project-text">
+            <p><?= $item->version() ?><span class="download-data">[<?= $item->extension() ?>,
+                    <?= $item->niceSize() ?>]</span></p>
+            <h3><?= $item->title() ?> </h3>
+        </div>
+
+    </a>
+    <?php endforeach ?>
+
+
+    <!-- Liste Forschung -->
+
+    <h4>Forschungsteam</h4>
+    <ul class="list">
+        <?php foreach($part->team()->toStructure() as $item ): ?>
+        <?php if ($item->institution()->isNotEmpty()): ?>
+        <li class="list-institution"><?= $item->institution() ?></li>
+        <?php endif; ?>
+
+        <ul class="sub-list">
+            <li><span><?= $item->section() ?>:</span>
+                <?= $item->persons() ?></li>
+        </ul>
+
+
         <?php endforeach ?>
-    </article>
-    <article>
-        <h4>Forschungsteam</h4>
-        <ul>
-            <?php foreach($part->team()->toStructure() as $item ): ?>
-            <?php if ($item->institution()->isNotEmpty()): ?>
-            <li><?= $item->institution() ?>
-                <?php endif; ?>
+    </ul>
 
-                <ul>
-                    <li><?= $item->section() ?> <?= $item->persons() ?></li>
-                </ul>
+    <!-- Liste Partner -->
 
-            </li>
-            <?php endforeach ?>
-        </ul>
-    </article>
+    <h4>Projektpartner</h4>
+    <ul class="list">
+        <?php foreach($part->partner()->toStructure() as $item ): ?>
+        <li><?= $item->name() ?> </li>
+        <?php endforeach ?>
+    </ul>
 
-    <article>
-        <h4>Projektpartner</h4>
-        <ul>
-            <?php foreach($part->partner()->toStructure() as $item ): ?>
-            <li><?= $item->name() ?> </li>
-            <?php endforeach ?>
-        </ul>
-    </article>
+    <!-- Liste Förderer -->
 
-    <article>
-        <h4>Fördergeber</h4>
-        <?= $part->support() ?>
-    </article>
+    <h4>Fördergeber</h4>
+    <?= $part->support() ?>
+
 
 
 </section>

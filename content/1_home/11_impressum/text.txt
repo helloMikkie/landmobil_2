@@ -1,9 +1,0 @@
-Title: Impressum
-
-----
-
-Text: **Impressum:** **Verantwortlich** Prof. Philipp Oswalt **E-Mail** info@landmobil.net **Design und Programmierung** Heimann + Schwantes **Bild und Grafik** Heimann + Schwantes, Mekado, Universität Kassel
-
-----
-
-Uuid: UdUnLyYTAy0BzF5K

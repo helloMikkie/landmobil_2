@@ -1,3 +1,6 @@
+// Cover Slideshow
+
+
 let slideIndex = 0;
 showSlides();
 
@@ -13,17 +16,15 @@ let slides = document.querySelectorAll(".mySlides")
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
 
-  setTimeout(showSlides, 4000); // Change image every 2 seconds
+  setTimeout(showSlides, 500); // Change image every 2 seconds
 }
 
-// Header
-
-
+// Header Contenttoggle
 
 
 const toggleTag = document.querySelector(".content-toggle");
 const navTag = document.querySelector(".content");
-const bodyTag = document.querySelector("body")
+
 
 
 
@@ -33,15 +34,19 @@ toggleTag.addEventListener("click", function() {
 
 	// Check ob Klasse vergeb, um Text und Bild zu ändern
 	if (navTag.classList.contains("open")) {
+		toggleTag.style.textDecoration = "line-through"
+		toggleTag.style.textDecorationThickness="2px";
 		toggleTag.style.backgroundImage = "url(images/icons/close.svg)"
-    bodyTag.style.overflow = ""
+
 		
 	} else {
 		toggleTag.style.backgroundImage = ""
-    bodyTag.style.overflow = "hidden"
+		toggleTag.style.textDecoration = ""
 	}
 });
 
+
+// Scroll Header
 const titleTag = document.querySelector('.page-title')
 document.addEventListener("scroll", function () {
 	const pixels = window.scrollY;

@@ -1,0 +1,13 @@
+Alt: BBSR Logotype
+
+----
+
+Sort: 3
+
+----
+
+Uuid: cEkOJKGKS38gedG8
+
+----
+
+Template: myfile

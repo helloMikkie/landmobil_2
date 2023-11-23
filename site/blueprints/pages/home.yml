@@ -2,25 +2,36 @@ title: One Pager
 icon: 🧰
 
 sections:
-  parts:
-    headline: Parts
-    type: pages
-    status: all
-    image: false
-    info: "{{ page.intendedTemplate }}"
-    templates:
-      - pager-headline
-      - text
-      - project
-      - lecture
-      - publication
-      - media
-      - pager-hero
-  hero_image:
+  cover:
     type: files
+    label: Cover Bilder
     template: pager-reel
     layout: cards
     size: tiny
     info: "{{ file.caption }}"
     min: 1
     max: 5
+  parts:
+    headline: Content Elemente
+    type: pages
+    status: all
+    image: false
+    info: "{{ page.intendedTemplate }}"
+    width: 1/2
+    templates:
+      - text
+      - project
+      - lecture
+      - publication
+      - media
+      - abspann
+  contact:
+    type: fields
+    fields:
+      contact:
+        label: Kontakt Email
+        width: 1/3
+        type: email
+      impressum:
+        width: 2/3
+        type: textarea

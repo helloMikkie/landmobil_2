@@ -10,7 +10,7 @@ Publication:
     Zentralitäten 4.0 – Raumpolitiken und
     neue Mobilität auf dem Lande
   publisher: jovis
-  date: Berlin 2023
+  date: Berlin, 2023
   link: >
     https://www.jovis.de/en/book/9783986120511
   download:

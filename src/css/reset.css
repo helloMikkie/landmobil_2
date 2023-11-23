@@ -17,8 +17,8 @@ h2,
 h3,
 h4,
 p,
-ul[class],
-ol[class],
+ul,
+ol,
 li,
 figure,
 figcaption,
@@ -33,6 +33,12 @@ body {
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  font-family:Space-Regular ;
+  font-size: 1rem; 
+  line-height: 1.4em;
+  letter-spacing: 0.03em;  
+  word-spacing: -0.06em;
 
 }
 
@@ -40,11 +46,13 @@ body {
 ul[class],
 ol[class] {
   list-style: none;
+
 }
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
+
 }
 
 /* Make images easier to work with */
@@ -53,10 +61,6 @@ img {
   display: block;
 }
 
-/* Natural flow and rhythm in articles by default */
-article > * + * {
-  margin-top: 1em;
-}
 
 /* Inherit fonts for inputs and buttons */
 input,
@@ -66,12 +70,3 @@ select {
   font: inherit;
 }
 
-/* Remove all animations and transitions for people that prefer not to see them */
-/* @media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-} */

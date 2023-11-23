@@ -13,12 +13,8 @@
 <body>
 
     <header>
-        <!-- <a class="logo" href="<?= $site->url() ?>"><?= $site->title() ?></a> -->
-
-        <!-- <nav class="menu">
-		<?php foreach($site->children()->listed() as $subpage): ?>
-		<a href="<?= $subpage->url() ?>"><?= $subpage->title() ?></a>
-		<?php endforeach ?>
-	</nav> -->
-        <button class="content-toggle">Open</button>
+        <a href="#" class="content-toggle link">Info
+            <?= svg('assets/images/icon-close.svg') ?>
+        </a>
+        <a href="mailto:<?= $page->contact() ?>" class=" link">Kontakt <?= svg('assets/images/icon-email.svg') ?></a>
     </header>

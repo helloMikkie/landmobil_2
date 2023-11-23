@@ -1,0 +1,18 @@
+title: Abspann
+icon: 🧰
+
+sections:
+  text:
+    type: fields
+    fields:
+      disclaimer:
+        type: textarea
+        required: true
+  logo:
+    type: files
+    template: myfile
+    layout: cards
+    size: tiny
+    info: "{{ file.caption }}"
+    min: 1
+    max: 5

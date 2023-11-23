@@ -1,7 +1,0 @@
-title: Headline section
-icon: title
-
-fields:
-  headline:
-    type: text
-    # required: true

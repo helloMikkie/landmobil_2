@@ -1,19 +1,28 @@
 <h2><?=$part->title() ?></h2>
 
 
-<section class="container">
+<section>
     <?php foreach($part->publication()->toStructure() as $item ): ?>
 
-    <article>
-        <h4><?= $item->title() ?></h4>
-        <?= $item->author() ?>
-        <?= $item->publisher() ?> <?= $item->date() ?>
+    <article class="item">
+        <h3><?= $item->title() ?></h3>
+        <p><span><?= $item->author() ?></span>
+            <?= $item->publisher() ?> <span class="date"><?= $item->date() ?></span></p>
+
+
         <?php if ( $item->link()->isNotEmpty()): ?>
-        <a href="<?= $item->link() ?>" target="_blank">link</a>
-        <?php endif; ?>
-        <?php if ( $item->download()->isNotEmpty()): ?>
-        <a href="<?= $item->download()->toFiles() ?>" target="_blank">download</a>
-        <?php endif; ?>
+        <div class="share-links">
+            <a href="<?= $item->link() ?>" target="_blank">
+
+                <?= svg('assets/images/icon-share.svg') ?>
+            </a>
+            <?php endif; ?>
+
+            <?php if ( $item->download()->isNotEmpty()): ?>
+            <a href="<?= $item->download()->toFiles() ?>" target="_blank">
+                <?= svg('assets/images/icon-download.svg') ?> </a>
+            <?php endif; ?>
+        </div>
     </article>
     <?php endforeach ?>
 </section>

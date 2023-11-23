@@ -2,9 +2,9 @@ title: Hero slide
 icon: image
 
 fields:
-  caption:
+  alt:
     type: text
     width: 1/2
-  link:
-    type: url
+  caption:
+    type: text
     width: 1/2
