@@ -2,5 +2,9 @@ title: File
 icon: image
 
 fields:
+  title:
+    type: text
   alt:
+    type: text
+  version:
     type: text

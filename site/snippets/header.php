@@ -13,8 +13,9 @@
 <body>
 
     <header>
-        <a href="#" class="content-toggle link">Info
+        <a href="#" class="content-toggle link"> <span>Projekt</span>
             <?= svg('assets/images/icon-close.svg') ?>
         </a>
-        <a href="mailto:<?= $page->contact() ?>" class=" link">Kontakt <?= svg('assets/images/icon-email.svg') ?></a>
+        <a href="mailto:<?= $page->contact() ?>" class=" link">
+            <span>Kontakt</span> <?= svg('assets/images/icon-email.svg') ?></a>
     </header>

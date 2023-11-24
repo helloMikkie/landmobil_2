@@ -23,59 +23,19 @@ let slides = document.querySelectorAll(".mySlides")
 
 
 const toggleTag = document.querySelector(".content-toggle");
+const toggleTagIcon = toggleTag.querySelector('svg')
 const navTag = document.querySelector(".content");
-
-
 
 
 toggleTag.addEventListener("click", function() {
 	navTag.classList.toggle("open");
- 
-
+	
 	// Check ob Klasse vergeb, um Text und Bild zu ändern
-	if (navTag.classList.contains("open")) {
-		toggleTag.style.textDecoration = "line-through"
-		toggleTag.style.textDecorationThickness="2px";
+	if (navTag.classList.contains("open")) {	
 		toggleTag.style.backgroundImage = "url(images/icons/close.svg)"
-
-		
+		toggleTagIcon.style.transform = 'rotate(0deg)'
 	} else {
 		toggleTag.style.backgroundImage = ""
-		toggleTag.style.textDecoration = ""
+		toggleTagIcon.style.transform = ""
 	}
 });
-
-
-// Scroll Header
-const titleTag = document.querySelector('.page-title')
-document.addEventListener("scroll", function () {
-	const pixels = window.scrollY;
-
-	if (pixels < 100) {
-    titleTag.style.position = "fixed"
-		// titleTag.classList.remove("title__onScroll");
-	} else {
-		// titleTag.classList.add("title__onScroll");
-    titleTag.style.position = "absolute"
-	}
-});
-
-
-// .disable-scroll{
-//   overflow-y: hidden;
-// }
-// Code language: CSS (css)
-
-
-
-// function disable(){
-//   document.querySelector('.scrollable').classList.add('disable-scroll');
-// }
-
-// function enable(){
-//   document.querySelector('.scrollable').classList.remove('disable-scroll');
-// }
-
-// document.querySelector('#prevent').addEventListener('click', disable);
-// document.querySelector('#allow').addEventListener('click', enable);
-// t)

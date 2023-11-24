@@ -17,7 +17,8 @@ Media:
   cast: HNA
   persons: ""
   date: 19.09.2023
-  link: ""
+  link: >
+    https://www.hna.de/kassel/haltestellen-mit-mehrwert-fuer-den-laendlichen-raum-um-kassel-92529343.html
 - 
   title: 'Studie empfiehlt: Bushaltestellen auf dem Land zu Treffpunkten machen mit WLAN, Ladestationen, Tauschboxen etc. – damit die Verkehrswende klappt'
   cast: Deutschlandfunk Nachrichten
@@ -110,8 +111,8 @@ Media:
     Auslaufmodell“
   cast: Spiegel Online
   persons: >
-     Philipp Oswalt im Gespräch mit Manuel
-    Berkel
+    Philipp Oswalt im Gespräch mit Manuel
+    erkel
   date: 17.10.2020
   link: ""
 

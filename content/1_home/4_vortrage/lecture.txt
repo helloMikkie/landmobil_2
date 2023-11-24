@@ -5,6 +5,26 @@ Title: Vorträge
 Lecture:
 
 - 
+  author: >
+    Prof. Dr. Philipp Oswalt, Prof. Stefan
+    Rettich u.a.
+  title: >
+    Neue Mobilität im ländlichen Raum.
+    Forschung zur nachhaltigen
+    Transformation
+  event: Vortrag, Universität Kassel FB 06
+  date: 17.01.2024
+  link: >
+    https://www.uni-kassel.de/fb06/oeffentliche-veranstaltungen/fusion/termine/termin-1/2024/01/17/default-62a2ccd45b4e531094c0bfa7f4233e1a?cHash=43216e609fab97683d779472544951f7
+- 
+  author: Philipp Oswalt
+  title: >
+    Neue Mobilität und Mobilitäts-Hubs im
+    ländlichen Raum
+  event: DB Smart City online Academy
+  date: 14.11.2023
+  link: ""
+- 
   author: Lola Meyer
   title: 'Klimagerechte Stadt- und Quartiersentwicklung durch Umnutzung von Verkehrsinfrastrukturen in ländlichen Räumen am Beispiel der nordhessischen Gemeinde Trendelburg'
   event: ""

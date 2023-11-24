@@ -1,25 +1,30 @@
-<section>
-    <h2><?=$part->title() ?></h2>
+<h2><?=$part->title() ?></h2>
 
 
 
-    <?php foreach($part->lecture()->toStructure() as $item ): ?>
+<?php foreach($part->lecture()->toStructure() as $item ): ?>
 
-    <article class="item">
-        <div class="item-heading">
-            <?php if ( $item->link()->isNotEmpty()): ?>
+<article class="item">
+    <h3><?= $item->title() ?></h3>
+
+    <p> <span><?= $item->author() ?></span>
+        <?php if($item->event()->isNotEmpty()): ?>:
+        <?= $item->event() ?>
+        <?php endif; ?>
+        <span class="date"><?= $item->date() ?></span>
+
+    </p>
+    <div class="item-heading">
+
+        <?php if ( $item->link()->isNotEmpty()): ?>
+        <div class="heading-icons">
             <a href=" <?= $item->link() ?>" target="_blank">
                 <?= svg('assets/images/icon-share.svg') ?>
             </a>
-            <?php endif; ?>
-            <h3><?= $item->title() ?></h3>
         </div>
-        <p> <span><?= $item->author() ?></span>
-            <?= $item->event() ?> <span class="date"><?= $item->date() ?></span>
+        <?php endif; ?>
+    </div>
 
-        </p>
 
-    </article>
-    <?php endforeach ?>
-
-</section>
+</article>
+<?php endforeach ?>

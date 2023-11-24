@@ -9,7 +9,7 @@
     <div class="mySlides fade" style=" background-image: url(<?= $file->url() ?>);">
     </div>
     <?php endforeach ?>
-    <h1 class="page-title"><?= $page->title() ?></h1 </div>
+    <h1 class="page-title"><?= $page->title() ?></h1>
 </section>
 
 <!-- Content -->

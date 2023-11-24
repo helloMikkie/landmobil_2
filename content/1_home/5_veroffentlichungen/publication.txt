@@ -14,7 +14,7 @@ Publication:
   link: >
     https://www.jovis.de/en/book/9783986120511
   download:
-    - file://DKyZpxF2zsMuhJ3W
+    - file://jjViKz2n0BzV5WIL
 - 
   author: Philipp Oswalt und Lola Meyer
   title: >
@@ -24,7 +24,8 @@ Publication:
   publisher: BDLA Verbandszeitschrift
   date: 2023, S. 16−17
   link: ""
-  download: [ ]
+  download:
+    - file://DKyZpxF2zsMuhJ3W
 - 
   author: Philipp Oswalt, Lola Meyer
   title: >
@@ -60,7 +61,8 @@ Publication:
   publisher: Garten und Landschaft
   date: 'Ausgabe 4/2021,  S. 40−43'
   link: ""
-  download: [ ]
+  download:
+    - file://TMccM1ufxPN2s9Hs
 - 
   author: Lola Meyer und Philipp Oswalt
   title: >

@@ -1,8 +1,27 @@
-:root{
-  --bg: rgb(252, 142, 254);
-  --black: lime;
+
+@font-face{
+  font-family:'Space-Regular';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(fonts/SpaceGrotesk-Regular.woff2), url(fonts/SpaceGrotesk-Regular.woff);
+}
+@font-face{
+  font-family:'Space-Bold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/SpaceGrotesk-SemiBold.woff2), url(fonts/SpaceGrotesk-SemiBold.woff);
 }
 
+:root{
+
+  --bg: #FBDBEA;
+  --black: rgba(0,0,0,0.85);
+  --white: rgba(255,255,255,0.8);
+  --ff-reg: Space-Regular; 
+  --ff-bold: Space-Bold;
+}
 *,
 *::before,
 *::after {
@@ -39,12 +58,18 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   -webkit-font-smoothing: antialiased;
-  font-family:Space-Regular ;
+  font-family:var(--ff-reg);
   font-size: 1rem; 
   line-height: 1.4em;
   letter-spacing: 0.03em;  
   word-spacing: -0.06em;
-
+  color: var(--black); 
+  @media(min-width: 50em){
+    font-size: 1.25rem; 
+    letter-spacing: 0.015em; 
+    word-spacing: -0.03em;
+    line-height: 1.6em;
+  }
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
@@ -57,6 +82,7 @@ ol[class] {
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
+  color: inherit
 
 }
 
@@ -75,3 +101,7 @@ select {
   font: inherit;
 }
 
+::selection {
+  color: rgb(0, 106, 83);
+  background: white;
+}

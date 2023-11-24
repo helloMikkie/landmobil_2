@@ -3,6 +3,8 @@
 	position: fixed; 
 	z-index: -10; 
 	width: 100%; 
+	/* display: flex; 
+	justify-content: center; */
 }
 
 .mySlides{
@@ -14,26 +16,20 @@
 	}	
 /* Page Title */
 .page-title{
+	font-family: var(--ff-bold);
 	position: absolute; 
 	top: 50%; 
 	left: 50%;
-	font-size: 6rem; 
+	width: 100%; 
+	padding-inline: 0.5em; 
+	font-size: 4rem; 
 	line-height: 0.9em; 
-	letter-spacing: -0.03em; 
+	letter-spacing: -0.06em; 
 	transform: translate(-50%, -50%);
-
-}
-/* .title__onScroll{
-	
-	padding-top: 8px; 
-	border-bottom: 1px solid red; 
-	background-color: white; 
-
-	h1{
-		font-size: 1rem; 
-		width: 860px; 
+	@media (min-width: 40em) {
+		font-size: calc(11vw - 1rem); 
 	}
-} */
+}
 
   .content{
 	
@@ -42,15 +38,22 @@
 	position: absolute; 
 	height: auto; 
 	overflow: scroll;
-	padding-top: 20vh;
+	padding-top: 120px;
 	padding-inline: 1em;
-	/* margin-inline: 0.75em;  */
+
 	transform: translate(-100%);
 	transition: all 0.2s;  
 	z-index: 1; 
-	@media (min-width: 40em){
-		max-width: 66%;
+	box-shadow: 10px 0px 30px 0px rgba(127, 157, 231, 0.3);
+	@media (min-width: 50em){
+		max-width: 40em;
 		margin: 0;
+	}
+	@media (min-width: 50em){
+		max-width: 50em;
+		padding-inline: 2em; 
+		padding-top: 200px; 
+		
 	}
 }
 .content.open{
@@ -60,181 +63,254 @@
 
 header{
 	position: fixed; 
-	top:0;
-	left: 0; 
+	top:0.5em; 
+	left: 0.5em; 
 	display: flex;
 	justify-content: flex-start; 
 	gap: 4px; 
-	width: 100%; 
 	z-index: 10; 
+	svg{
+		width: 24px;
+		height: 24px; 
+	}
 	 .link{
-		width: 100%; 
+		display: flex; 
+		justify-content: center;
+		align-items: center;
+		gap: 1em; 
+		width: 54px;
+		height: 54px; 
 		color: white; 
-		background-color: black; 
-		padding: 0.3em 1em; 
-		font-size: 1rem; 
-		line-height: 1em; 
+		background-color: var(--black); 
 		text-decoration: none;
-		
-		
+		border-radius: 999px; 
+		transition: all 0.1s ease-in; 
+	span{
+		display: none; 
+		font-family: var(--ff-bold);
+		text-transform: uppercase;
+		line-height: 1em;
+	}
+	
 	}
 	@media (min-width: 40em){
-		header{
-			
-		}
 		.link{
 			width: auto; 
-			font-size: 2rem; 
+			height: auto; 
+			font-size: 1rem; 
 			transition: 0.2s ease-in;
-			
-			&:hover{
-				background-color: red;
+			padding-block: 1em ;
+			padding-inline:1.8em; 
+			span{
+				display: block;
 			}
 		}
 	}
+	@media (hover: hover)  {
+		.link:hover { 
+			opacity: 0.9;
+			transform: translateY(8px) }
+	  }
+	  @media (min-width: 50em){
+		left: 1em; 
+		top: 1em; 
+	  }
+	
+}
+.content-toggle svg{
+	transition: all 0.2s;
+	transform: rotate(45deg);
 }
 
 
-
-/* Impressum Haftungsauschluss */
-  .impressum{
-	
-	font-size: 0.75rem; 
-	padding-bottom: 2em; 
-	p {
-		margin-bottom: 1em; 
-	}
-
-	h2{
-		font-family: Space-Bold;
-		margin-bottom: 1em; 
-	}
-	h3{
-		font-family: Space-Bold;
-	}
-	p strong{
-		font-family: Space-Bold;
-	}
-  }
-
-
-  /* Footer */
-  .logo-container{
+  /* Förder  */
+ .support{
 	padding-block: 1em; 
-	border-top: 1px solid red; 
-	
-	img{
-		max-width: 320px;
-		max-height: 68px; 
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	justify-items: start;
+	span{
+		height: 60px;
 		object-fit: contain;
+		margin-bottom: 1em;
 	}
+	svg{
+		display: inline-block;
+		height: 100%; 
+		width: 100%; 
+		opacity: 0.8; 
+		
+	}
+	.logo-bau{
+		height: 40px;
+	}
+	.logo-bbsr{
+		height: 40px; 
+	}
+	@media (min-width: 50em){
+		grid-template-columns: repeat(3, 1fr);
+		gap: 2em;
+		justify-items: center; 
+		svg{
+			height: 40px; 
+		}
+	  }
+
 }
 
 footer{
-	position: fixed;
-	bottom: 0; 
-	left: 0;
-	right: 0;  
-	background-color: white; 
-	border-top: 1px solid red; 
-	& > * {
+	font-size: 0.875rem; 
+	line-height: 1.2em; 
+	border-top: 1px solid black; 
+	padding-top: 1em; 
+	padding-bottom: 2em; 
+
+	/* & > * {
 		display: inline-block;
-	}
+	} */
 }
 /* Listenabschnitte */
 .item{
-	margin-bottom: 2em; 
+	margin-bottom: 0.5em; 
+	padding-top: 1em; 
 	position: relative; 
+	/* display: flex;  */
+	/* flex-direction: column;  */
+	border-top: 1px solid var(--black);
 	h3{
-		margin-bottom: 0.5em; 
+		margin-bottom: 0.2em; 
 	}
 	p{
 		
 		font-size: 0.875rem; 	
 		line-height: 1.3em; 
-		border-top: 1px solid #000; 
 		padding-top: 0.5em; 
+
 		span{
-			font-family: Space-Bold;
+			font-family: var(--ff-bold);
+			@media (min-width: 50em){
+				letter-spacing: 0.01em; 
+			} 
 		}
 		.date{
 			font-size: 0.75rem; 
 			border-radius: 999px; 
-			border: 1px solid #000; 
+			background-color: var(--white);
+			opacity: 0.75; 
+			/* border: 1px solid var(--black);  */
 			line-height: 1; 
 			display: inline-block;
 			padding-inline: 0.5em;
-			padding-top: 0.2em;
-			padding-bottom: 0.1em;  
+			padding-top: 0.1em;
+			padding-bottom: 0.1em; 
+			@media (min-width: 50em){
+				font-size: 1.2rem; 
+				letter-spacing: 0.03em; 
+			}  
 		}
+		@media (min-width: 50em){
+		
+			font-size: 1.2rem; 
+			letter-spacing: 0.03em; 
+			padding-top: 1em; 
+		} 
 	}
 }
 
-.share-links{
-
-	display: flex; 
-	justify-content: flex-start; 
-	align-items: center;
-	gap: 0.5em; 
-	border-top: 1px solid #000; 
-
-	margin-top: 0.5em;  
-	padding-top: 0.5em; 
-	svg{
-		display: inline-block;
-		width: 32px;
-		height: 32px; 
-	}
-
-}
-
+/* Download einträge */
 .item-heading{
 	display: flex; 
-	justify-content: flex-start;
-	align-items: center;
-	gap: 1em; 
+	justify-content: flex-end;
+	align-items: flex-end;
+	gap: 0.5em;
+	margin-top: 0.5em; 
+
+	.heading-icons{ 
+
+		display: flex;
+		align-items: center; 
+		gap: 0.2em; 
+	
+		/* border: 1px solid red;  */
+		
+	}
+	
 	svg{
 		display: inline-block;
-		width: 32px;
-		height: 32px; 
-		&:hover{
-			opacity: 0.85;
-			stroke: red; 
+		width: 28px;
+		height: 28px; 
+	
+		transition: all 0.2s ease-out; 
+		
+		@media (min-width: 50em) {
+		
+			width: 48px;
+			height: 48px; 
+			
+		} 
+		@media (hover:hover){
+			&:hover{
+				opacity: 0.85;
+				transform: translateY(-8px);
+			}
+		}
+	
+
+	}
+}	
+
+/* Projekte */
+
+.project-heading{
+	display: flex; 
+	align-items: baseline;
+	gap: 0.5em;
+	.project-number{
+        font-size: 6rem; 
+	}
+	@media(min-width: 50em){
+		font-size: 2.5rem; 
+		letter-spacing: -0.02em; 
+		.project-number{
+			font-size: 10rem; 
 		}
 	}
-
 }
-/* Projekte */
 
 .project-link{
 	/* border: 1px solid red;  */
 	background: transparent;
 	border-radius: 6px; 
 	display: flex; 
-	gap: 1em; 
-	padding-block: 1em; 
-	padding-left: 1em; 
+	gap: 0.5em; 
+	align-items: flex-start; 
+	margin-bottom: 1em; 
 	text-decoration: none; 
 	color: inherit; 
 	transition: all 0.2s ease-in; 
-	&:hover{
-		background: #eee; 
-		
-	}
+	
 	svg{
 		/* border: 1px solid red;  */
-		display: block; 
+		/* display: block;  */
 		width: 44px;
-		height: 44px;  
+		height: 44px;
+		transition: all 0.2s;  
+		@media(min-width: 50em){
+			width: 60px;
+		height: 60px;
+		}
 	}
 	.project-text{
-		padding-top: 0.2em; 
+		width: 100%; 
 		p{
-			font-size: 0.75rem; 
+			font-size: 0.875rem; 
 			text-transform: uppercase;
-			margin-bottom: 1em; 
+			padding-top: 0.5em;
+			padding-bottom: 0.3em; 
+			margin-bottom: 0.5em; 
+			border-bottom: 1px solid white; 
 			.download-data{
-				margin-left: 1em; 
+				margin-left: 0.5em; 
 			}
 		}
 		h4{
@@ -243,5 +319,14 @@ footer{
 		}
 
 	}
+	@media (hover: hover)  {
+		&:hover { opacity: 0.75;
+			 
+			svg{
+				transform: translateY(-8px);
+			}
+		}
+		
+	  }
 
 }
