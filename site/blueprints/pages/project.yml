@@ -8,6 +8,9 @@ columns:
       info:
         type: fields
         fields:
+          number:
+            type: number
+            required: true
           subtitle:
             type: text
           description:
@@ -45,5 +48,3 @@ columns:
           support:
             label: Fördergeber
             type: textarea
-
-

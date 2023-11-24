@@ -1,3 +1,8 @@
+:root{
+  --bg: rgb(252, 142, 254);
+  --black: lime;
+}
+
 *,
 *::before,
 *::after {

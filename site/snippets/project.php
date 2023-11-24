@@ -1,7 +1,7 @@
 <section class="project">
 
 
-    <h2><?=$part->title() ?></h2>
+    <h2><span class="project-number"><?=$part->number() ?></span><?=$part->title() ?></h2>
     <?php if ($part->subtitle()->isNotEmpty() ): ?>
     <h3><?= $part->subtitle() ?></h3>
     <?php endif; ?>
@@ -9,13 +9,14 @@
 
     <p><?=$part->description() ?></p>
     <!-- Downloads -->
-
+    <h4>Forschungsberichte</h4>
     <?php $files = $part->files()->filterBy('extension', 'pdf');
 	foreach($files as $item ): ?>
     <a href="<?= $item->url() ?>" target="_blank" class="project-link">
 
         <?= svg('assets/images/icon-download.svg') ?>
         <div class="project-text">
+
             <p><?= $item->version() ?><span class="download-data">[<?= $item->extension() ?>,
                     <?= $item->niceSize() ?>]</span></p>
             <h3><?= $item->title() ?> </h3>

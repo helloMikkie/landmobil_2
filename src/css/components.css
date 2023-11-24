@@ -38,7 +38,7 @@
   .content{
 	
 	opacity:0.4;
-	background-color: rgba(255,255,255,1); 
+	background-color: var(--bg); 
 	position: absolute; 
 	height: auto; 
 	overflow: scroll;
@@ -184,6 +184,23 @@ footer{
 		display: inline-block;
 		width: 32px;
 		height: 32px; 
+	}
+
+}
+
+.item-heading{
+	display: flex; 
+	justify-content: flex-start;
+	align-items: center;
+	gap: 1em; 
+	svg{
+		display: inline-block;
+		width: 32px;
+		height: 32px; 
+		&:hover{
+			opacity: 0.85;
+			stroke: red; 
+		}
 	}
 
 }
