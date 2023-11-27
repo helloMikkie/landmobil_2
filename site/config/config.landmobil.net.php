@@ -10,5 +10,6 @@
 
  
 return [
-    'debug' => str_ends_with($_SERVER['SERVER_NAME'] ?? '', '.test') || @$_SERVER['SERVER_NAME'] === 'localhost', // enable debug for domains that end on ".test"
+
+    'debug' => false,
 ];
