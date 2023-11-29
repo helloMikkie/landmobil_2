@@ -7,7 +7,7 @@ Lecture:
 - 
   author: >
     Prof. Dr. Philipp Oswalt, Prof. Stefan
-    Rettich u.a.
+    Rettich, u.a.
   title: >
     Neue Mobilität im ländlichen Raum.
     Forschung zur nachhaltigen

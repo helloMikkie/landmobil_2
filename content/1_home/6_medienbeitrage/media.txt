@@ -13,7 +13,7 @@ Media:
   date: ' 7.10.2023'
   link: ""
 - 
-  title: 'Katja Rudolph: Haltestellen mit Mehrwert: Kasseler Forscher zeigen Wege zur Mobilitätswende im ländlichen Raum auf,'
+  title: 'Katja Rudolph: Haltestellen mit Mehrwert: Kasseler Forscher zeigen Wege zur Mobilitätswende im ländlichen Raum auf'
   cast: HNA
   persons: ""
   date: 19.09.2023
@@ -102,17 +102,17 @@ Media:
 - 
   title: 'Rettet die App den Nahverkehr? '
   cast: Volksstimme
-  persons: MikeFieske
+  persons: Mike Fieske
   date: 03.11.2020
   link: ""
 - 
   title: >
     Auf dem Land ist der Linienbus ein
-    Auslaufmodell“
+    Auslaufmodell
   cast: Spiegel Online
   persons: >
     Philipp Oswalt im Gespräch mit Manuel
-    erkel
+    Erkel
   date: 17.10.2020
   link: ""
 

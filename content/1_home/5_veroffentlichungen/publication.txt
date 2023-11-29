@@ -32,7 +32,7 @@ Publication:
     Neue Mobilität im ländlichen Raum –
     Zukunftsszenarien
   publisher: Deutsche Bauzeitung DBZ
-  date: Ausgabe 02-2023, S. 28−31
+  date: Ausgabe 02/2023, S. 28−31
   link: ""
   download: [ ]
 - 

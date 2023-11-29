@@ -222,10 +222,12 @@ footer{
 
 		display: flex;
 		align-items: center; 
-		gap: 0.2em; 
+		gap: 1em; 
 	
-		/* border: 1px solid red;  */
+		@media (min-width: 50em){
 		
+			gap: 0.2em;
+		}
 	}
 	
 	svg{
